@@ -1,0 +1,10 @@
+============================= test session starts =============================
+platform win32 -- Python 3.11.9, pytest-8.3.2, pluggy-1.6.0
+rootdir: C:\Users\tushar.anand\Downloads\MCA Project\churn_platform
+plugins: anyio-4.15.1
+collected 4 items
+
+tests\test_contracts.py ..                                               [ 50%]
+tests\test_data_audit.py ..                                              [100%]
+
+============================== 4 passed in 5.37s ==============================

@@ -1,0 +1,11 @@
+python.exe :   File "<string>", line 1
+At line:1 char:1
++ & "C:\Users\tushar.anand\AppData\Local\Python\pythoncore-3.11-64\pyth ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (  File "<string>", line 1:String) 
+    [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+    import sys; sys.path.insert(0, rC:\Users\tushar.anand\Downloads\MCA
+                                     ^
+SyntaxError: invalid syntax

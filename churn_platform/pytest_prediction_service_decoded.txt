@@ -1,0 +1,27 @@
+============================= test session starts =============================
+platform win32 -- Python 3.11.9, pytest-8.3.2, pluggy-1.6.0
+rootdir: C:\Users\tushar.anand\Downloads\MCA Project\churn_platform
+plugins: anyio-4.15.1
+collected 2 items
+
+tests\test_prediction_service.py FF                                      [100%]
+
+================================== FAILURES ===================================
+________________ test_prediction_service_classifies_risk_bands ________________
+
+    def test_prediction_service_classifies_risk_bands():
+>       service = PredictionService(threshold=0.4)
+E       TypeError: PredictionService.__init__() got an unexpected keyword argument 'threshold'
+
+tests\test_prediction_service.py:5: TypeError
+__________ test_prediction_service_scores_outputs_consistent_schema ___________
+
+    def test_prediction_service_scores_outputs_consistent_schema():
+>       service = PredictionService(threshold=0.4)
+E       TypeError: PredictionService.__init__() got an unexpected keyword argument 'threshold'
+
+tests\test_prediction_service.py:12: TypeError
+=========================== short test summary info ===========================
+FAILED tests/test_prediction_service.py::test_prediction_service_classifies_risk_bands
+FAILED tests/test_prediction_service.py::test_prediction_service_scores_outputs_consistent_schema
+============================== 2 failed in 0.27s ==============================

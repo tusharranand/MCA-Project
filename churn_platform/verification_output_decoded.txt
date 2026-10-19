@@ -1,0 +1,18 @@
+python.exe :   File "<string>", line 1
+At line:1 char:1
++ & "C:\Users\tushar.anand\AppData\Local\Python\pythoncore-3.11-64\pyth ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (  File "<string>", line 1:String) 
+    [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+    import sys; sys.path.insert(0, r'C:\Users\tushar.anand\Downloads\MCA 
+Project'); import pytest; import churn_platform.run_training as rt; exit_code 
+= pytest.main([r'C:\Users\tushar.anand\Downloads\MCA 
+Project\churn_platform\tests']); print('PYTEST_EXIT', exit_code); if exit_code 
+== 0: rt.main(); print('TRAINING_EXIT', 0)
+                                                                               
+                                                                               
+                                                                               
+                                 ^^
+SyntaxError: invalid syntax
